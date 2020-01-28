@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="TL000002" View="РАСТОЧНОЙ" Group="РЕЗЕЦ" Type="ОДНОРЕЗЦОВЫЙ" Name="Т15К64,06BYN" Ip_address="192.168.4.3">
+           <Parameter title="Size_Tool" value="30"> </Parameter> // размер
+		   <Parameter title="Life_Time" value="1300"> </Parameter>// срок службы
+		   <Parameter title="Prise_Tool" value="570"> </Parameter>// стоимость
+    </Agent>
+</MASXML>

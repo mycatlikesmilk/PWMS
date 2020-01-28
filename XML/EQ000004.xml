@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="EQ000004" View="ТОКАРНЫЙ" Group="1" Ip_address="192.168.2.5" Type="ТОКАРНО-РЕВОЛЬВЕРНЫЙ" Name="WM6133_0">
+           <Parameter title="Price" value="230000"> </Parameter> //Цена оборудования
+           <Parameter title="Depreciation_Rate" value="1.8"  > </Parameter>//норма амортизации
+           <Parameter title="CategoryCompRepairMechanParts" value="30" > </Parameter> //категория ремонтной сложности механической части
+           <Parameter title="CategoryCompRepairElectrParts" value="22"> </Parameter>//категория ремонтной сложности электрической части
+           <Parameter title="NumberShifts" value="1"> </Parameter>//число смен работы станка
+           <Parameter title="EnginePower" value="8"> </Parameter>//Установленная мощность электродвигателей (N)
+           <Parameter title="FundWorkingTime" value="2612"> </Parameter>//эфективный фонд рабочего времени оборудования
+           <Parameter title="KPD" value="0.72"> </Parameter> //КПД электродвигателей оборудования
+    </Agent>
+</MASXML>

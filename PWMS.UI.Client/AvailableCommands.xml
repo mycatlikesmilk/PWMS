@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Documentation>
+  <Commands>
+    <Command>
+      <Name>Отправка сообщения</Name>
+      <Keyword>send</Keyword>
+      <Details>Команда, при помощи которой можно отправить сообщение на другой клиент</Details>
+      <Format>send &lt;client on-server-id&gt; &lt;message&gt;</Format>
+      <Parameters>
+        <Parameter>
+          <Name>Client On-Server-ID</Name>
+          <Details>Идентификатор агента в системе, которому необходимо отправить сообщение</Details>
+          <Required>1</Required>
+        </Parameter>
+        <Parameter>
+          <Name>Message</Name>
+          <Details>Сообщение, которое небзодимо отправить агенту</Details>
+          <Required>1</Required>
+        </Parameter>
+      </Parameters>
+    </Command>
+    <Command>
+      <Name>Загрузка настроек агента</Name>
+      <Keyword>loadsettings</Keyword>
+      <Details>Позволяет загрузить настройки агента из xml-файла</Details>
+      <Format>loadsettings &lt;type&gt;</Format>
+      <Parameters>
+        <Parameter>
+          <Name>Type</Name>
+          <Details>Тип агента. t - Техпроцесс, r - ресурс</Details>
+          <Required>1</Required>
+        </Parameter>
+      </Parameters>
+    </Command>
+    <Command>
+      <Name>Получение списка агентов</Name>
+      <Keyword>getagentnet</Keyword>
+      <Details>Позволяет получить список всех подключенных агентов в системе в xml виде</Details>
+      <Format>getagentnet</Format>
+    </Command>
+    <Command>
+      <Name>Получение текущего состояния агента</Name>
+      <Keyword>getagentstatus</Keyword>
+      <Details>Позволяет получить текущее состояние указанного агента в виде xml</Details>
+      <Format>getagentstatus &lt;client on-server id&gt;</Format>
+      <Parameters>
+        <Parameter>
+          <Name>Client on-server id</Name>
+          <Details>Идентификатор агента, по которому необходимо получить данные</Details>
+          <Required>1</Required>
+        </Parameter>
+      </Parameters>
+    </Command>
+  </Commands>
+</Documentation>

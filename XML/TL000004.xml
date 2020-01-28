@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+  <Agent Id="TL000004" View="ЛЕЗВИЙНЫЙ" Group="ФРЕЗА" Type="ПРЯМОЙ" Name="12053.970" Ip_address="192.168.4.5">
+    <Parameter title="Size_Tool" value="6"> </Parameter> // размер
+    <Parameter title="Life_Time" value="1200"> </Parameter>// срок службы
+    <Parameter title="Prise_Tool" value="800"> </Parameter>// стоимость
+  </Agent>
+</MASXML>

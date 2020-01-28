@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Agent Id="TL000001" View="ЛЕЗВИЙНЫЙ" Group="ФРЕЗА" Type="ПРЯМОЙ" Name="BORFREZA-B1020-6MM_2" Ip_address="192.168.4.2">
+  <Parameter title="Size_Tool" value="20"> </Parameter> // размер
+  <Parameter title="Life_Time" value="1000"> </Parameter>// срок службы
+  <Parameter title="Prise_Tool" value="50"> </Parameter>// стоимость
+</Agent>

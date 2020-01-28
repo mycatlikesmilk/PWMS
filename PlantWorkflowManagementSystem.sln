@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{859B0E74-721F-4FC9-A761-236A8E46FF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWMS.UI.Client", "PWMS.UI.Client\PWMS.UI.Client.csproj", "{CE9E65E8-1B7C-47B2-A881-335EF1E79B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWMS.UI.Server", "PWMS.UI.Server\PWMS.UI.Server.csproj", "{1CCEACCD-783E-42C4-8436-84CC00FCF05B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B6C78BA5-7841-4EAD-BE28-340187BB69BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWMS.Core.Client", "PWMS.Core.Client\PWMS.Core.Client.csproj", "{653A3333-57D1-4A9F-AFCC-7F7371800D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWMS.Core.Server", "PWMS.Core.Server\PWMS.Core.Server.csproj", "{EBCAAFD8-518E-4B6E-BFD2-755ADEF5ED39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{768E81AE-AD1F-4FFF-8D28-4F12EFD7C68F}"
+	ProjectSection(SolutionItems) = preProject
+		XML\AgentHistory.xml = XML\AgentHistory.xml
+		XML\AgentNet.xml = XML\AgentNet.xml
+		XML\AS_EQ000001_02_01_2020.xml = XML\AS_EQ000001_02_01_2020.xml
+		XML\AS_EQ000002_02_01_2020.xml = XML\AS_EQ000002_02_01_2020.xml
+		XML\EQ000001.xml = XML\EQ000001.xml
+		XML\EQ000002.xml = XML\EQ000002.xml
+		XML\EQ000003.xml = XML\EQ000003.xml
+		XML\EQ000004.xml = XML\EQ000004.xml
+		XML\EQ000005.xml = XML\EQ000005.xml
+		XML\ST000001.xml = XML\ST000001.xml
+		XML\ST000002.xml = XML\ST000002.xml
+		XML\ST000003.xml = XML\ST000003.xml
+		XML\ST000004.xml = XML\ST000004.xml
+		XML\ST000005.xml = XML\ST000005.xml
+		XML\TL000001.xml = XML\TL000001.xml
+		XML\TL000002.xml = XML\TL000002.xml
+		XML\TL000003.xml = XML\TL000003.xml
+		XML\TL000004.xml = XML\TL000004.xml
+		XML\TL000005.xml = XML\TL000005.xml
+		XML\TP000001.xml = XML\TP000001.xml
+		XML\TP000002.xml = XML\TP000002.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9E65E8-1B7C-47B2-A881-335EF1E79B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9E65E8-1B7C-47B2-A881-335EF1E79B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9E65E8-1B7C-47B2-A881-335EF1E79B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9E65E8-1B7C-47B2-A881-335EF1E79B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCEACCD-783E-42C4-8436-84CC00FCF05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCEACCD-783E-42C4-8436-84CC00FCF05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCEACCD-783E-42C4-8436-84CC00FCF05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCEACCD-783E-42C4-8436-84CC00FCF05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653A3333-57D1-4A9F-AFCC-7F7371800D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653A3333-57D1-4A9F-AFCC-7F7371800D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653A3333-57D1-4A9F-AFCC-7F7371800D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653A3333-57D1-4A9F-AFCC-7F7371800D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCAAFD8-518E-4B6E-BFD2-755ADEF5ED39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCAAFD8-518E-4B6E-BFD2-755ADEF5ED39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCAAFD8-518E-4B6E-BFD2-755ADEF5ED39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCAAFD8-518E-4B6E-BFD2-755ADEF5ED39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE9E65E8-1B7C-47B2-A881-335EF1E79B6B} = {859B0E74-721F-4FC9-A761-236A8E46FF4F}
+		{1CCEACCD-783E-42C4-8436-84CC00FCF05B} = {859B0E74-721F-4FC9-A761-236A8E46FF4F}
+		{653A3333-57D1-4A9F-AFCC-7F7371800D98} = {B6C78BA5-7841-4EAD-BE28-340187BB69BC}
+		{EBCAAFD8-518E-4B6E-BFD2-755ADEF5ED39} = {B6C78BA5-7841-4EAD-BE28-340187BB69BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E537B67D-DA5D-4BAD-91BA-4A512092A628}
+	EndGlobalSection
+EndGlobal

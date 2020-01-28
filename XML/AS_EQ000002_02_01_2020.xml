@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AgentInformation SystemID="0" OPID="EQ000001">
+	<Plan>
+		<WorkflowData ID="0" From="02.01.2020 14:20:37" Duration="94" ParentTechprocID="TP000002" ParentTechprocSystemID="0" State="AWAITING"  />
+		<WorkflowData ID="1" From="02.01.2020 14:27:12" Duration="13" ParentTechprocID="TP000002" ParentTechprocSystemID="2" State="AWAITING"  />
+		<WorkflowData ID="2" From="02.01.2020 15:03:01" Duration="47" ParentTechprocID="TP000001" ParentTechprocSystemID="1" State="AWAITING"  />
+		<WorkflowData ID="4" From="02.01.2020 15:10:37" Duration="80" ParentTechprocID="TP000002" ParentTechprocSystemID="4" State="AWAITING"  />
+		<WorkflowData ID="5" From="02.01.2020 15:25:12" Duration="13" ParentTechprocID="TP000002" ParentTechprocSystemID="5" State="AWAITING"  />
+	</Plan>
+</AgentInformation>

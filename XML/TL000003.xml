@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="TL000003" View="СТРУЖКОСНИМАЮЩИЙ" Group="СВЕРЛО" Type="МНОГОРЕЗЦОВЫЙ" Name="HELLER-NSS-G-DIN-338" Ip_address="192.168.4.2">
+           <Parameter title="Size_Tool" value="10"> </Parameter> // размер
+		   <Parameter title="Life_Time" value="300"> </Parameter>// срок службы
+		   <Parameter title="Prise_Tool" value="100"> </Parameter>// стоимость
+    </Agent>
+</MASXML>

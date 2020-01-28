@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="PWMS.UI.Client.CommandHelperParameterElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PWMS.UI.Client"
+             mc:Ignorable="d" Width="400" MaxHeight="45" Background="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="45"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="LightGray" BorderThickness="1" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2" x:Name="tb_ParameterName" FontFamily="Consolas" FontSize="12" FontWeight="UltraBold"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" x:Name="tb_ParameterDetails" LineStackingStrategy="BlockLineHeight" LineHeight="12" TextWrapping="Wrap" Margin="2" FontStyle="Italic" FontFamily="Consolas" FontSize="12" Foreground="DimGray" />
+        <Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" x:Name="i_IsRequired" Margin="1" Width="32" Height="32"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Agent Id="EQ000002" View="ТОКАРНЫЙ" Group="1" Ip_address="192.168.2.3" Type="МНОГОРЕЗЦОВЫЙ" Name="TC16K20F3_HY_SM">
+  <Parameter title="Price" value="100000"> </Parameter> //Цена оборудования
+  <Parameter title="Depreciation_Rate" value="3.57"  > </Parameter>//норма амортизации
+  <Parameter title="CategoryCompRepairMechanParts" value="35" > </Parameter> //категория ремонтной сложности механической части
+  <Parameter title="CategoryCompRepairElectrParts" value="20"> </Parameter>//категория ремонтной сложности электрической части
+  <Parameter title="NumberShifts" value="1"> </Parameter>//число смен работы станка
+  <Parameter title="EnginePower" value="20"> </Parameter>//Установленная мощность электродвигателей (N)
+  <Parameter title="FundWorkingTime" value="2016"> </Parameter>//эфективный фонд рабочего времени оборудования
+  <Parameter title="KPD" value="0.9"> </Parameter> //КПД электродвигателей оборудования
+</Agent>

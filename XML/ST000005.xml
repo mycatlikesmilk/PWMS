@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="ST000005" View="ТОКАРЬ" Group="ЦЕХ 1" Type="СПЕЦИАЛИСТ" Surname="БИРЮКОВА" Name="ЛИДИЯ" Patronymic="СЕРГЕЕВНА" Ip_address="192.168.3.6" >
+           <Parameter title="Sex" value="МУЖ"> </Parameter> //пол
+           <Parameter title="Phone_ST" value="125-69-12"  > </Parameter>//телефон
+           <Parameter title="Discharge_ST" value="4" > </Parameter> //разряд рабочего
+           <Parameter title="Labor_hours_ST" value="180"> </Parameter>//стоимость часа работы
+    </Agent>
+</MASXML>

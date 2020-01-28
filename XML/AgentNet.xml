@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AgentNet>
+  <Agent WorkflowID="TP000001" SystemID="0" Type="Techprocess" />
+  <Agent WorkflowID="TP000002" SystemID="1" Type="Techprocess" />
+  <Agent WorkflowID="EQ000001" SystemID="2" Type="Resource" />
+  <Agent WorkflowID="EQ000002" SystemID="3" Type="Resource" />
+  <Agent WorkflowID="ST000003" SystemID="4" Type="Resource" />
+  <Agent WorkflowID="ST000004" SystemID="5" Type="Resource" />
+  <Agent WorkflowID="ST000005" SystemID="6" Type="Resource" />
+  <Agent WorkflowID="TL000002" SystemID="7" Type="Resource" />
+  <Agent WorkflowID="TL000003" SystemID="8" Type="Resource" />
+  <Agent WorkflowID="TL000004" SystemID="9" Type="Resource" />
+  <Agent WorkflowID="TL000005" SystemID="10" Type="Resource" />
+  <Agent WorkflowID="" SystemID="11" Type="None" />
+  <Agent WorkflowID="" SystemID="12" Type="None" />
+</AgentNet>

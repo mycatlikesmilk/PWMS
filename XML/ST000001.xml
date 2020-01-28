@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Agent Id="ST000001" View="ТОКАРЬ" Group="ЦЕХ 1" Type="СПЕЦИАЛИСТ" Name="Иванов Иван Иванович" Ip_address="192.168.3.2" >
+  <Parameter title="Surname" value="Иванов"/>
+  <Parameter title="Name" value="Иван"/>
+  <Parameter title="Patronymmic" value="Иванович"/>
+  <Parameter title="Sex" value="МУЖ"> </Parameter>
+  <Parameter title="Phone_ST" value="555-55-55"  > </Parameter>
+  <Parameter title="Discharge_ST" value="5" > </Parameter>
+  <Parameter title="Labor_hours_ST" value="150"> </Parameter>
+</Agent>

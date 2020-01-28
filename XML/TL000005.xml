@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="TL000005" View="РАСТОЧНОЙ" Group="РЕЗЕЦ" Type="ОДНОРЕЗЦОВЫЙ" Name="РЕЗЕЦ ГЛУХИХ ОТВЕРСТИЙ RGO14" Ip_address="192.168.4.6">
+           <Parameter title="Size_Tool" value="50"> </Parameter> // размер
+		   <Parameter title="Life_Time" value="900"> </Parameter>// срок службы
+		   <Parameter title="Prise_Tool" value="600"> </Parameter>// стоимость
+    </Agent>
+</MASXML>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="ST000002" View="ФРЕЗЕРОВЩИК" Group="ЦЕХ 1" Type="ВЕДУЩИЙ СПЕЦИАЛИСТ" Surname="ПЕТРОВ" Name="ПЕТР" Patronymic="ПЕТРОВИЧ" Ip_address="192.168.3.3" >
+           <Parameter title="Sex" value="МУЖ"> </Parameter> //пол
+           <Parameter title="Phone_ST" value="565-66-55"  > </Parameter>//телефон
+           <Parameter title="Discharge_ST" value="1" > </Parameter> //разряд рабочего
+           <Parameter title="Labor_hours_ST" value="100"> </Parameter>//стоимость часа работы
+    </Agent>
+</MASXML>

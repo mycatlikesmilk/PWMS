@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="EQ000005" View="ФРЕЗЕРНЫЙ" Group="6" Ip_address="192.168.2.6" Type="УНИВЕРСАЛЬНЫЙ" Name="FH-150">
+           <Parameter title="Price" value="6200000"> </Parameter> //Цена оборудования
+           <Parameter title="Depreciation_Rate" value="4.5"  > </Parameter>//норма амортизации
+           <Parameter title="CategoryCompRepairMechanParts" value="35" > </Parameter> //категория ремонтной сложности механической части
+           <Parameter title="CategoryCompRepairElectrParts" value="28"> </Parameter>//категория ремонтной сложности электрической части
+           <Parameter title="NumberShifts" value="2"> </Parameter>//число смен работы станка
+           <Parameter title="EnginePower" value="16"> </Parameter>//Установленная мощность электродвигателей (N)
+           <Parameter title="FundWorkingTime" value="3840"> </Parameter>//эфективный фонд рабочего времени оборудования
+           <Parameter title="KPD" value="0.92"> </Parameter> //КПД электродвигателей оборудования
+    </Agent>
+</MASXML>

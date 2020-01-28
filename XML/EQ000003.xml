@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MASXML>
+    <Agent Id="EQ000003" View="ФРЕЗЕРНЫЙ" Group="6" Ip_address="192.168.2.4" Type="ВЕРТИКАЛЬНО-ФРЕЗЕРНЫЙ" Name="HAAS TM-3P С ЧПУ">
+           <Parameter title="Price" value="315000"> </Parameter> //Цена оборудования
+           <Parameter title="Depreciation_Rate" value="3.80"  > </Parameter>//норма амортизации
+           <Parameter title="CategoryCompRepairMechanParts" value="19" > </Parameter> //категория ремонтной сложности механической части
+           <Parameter title="CategoryCompRepairElectrParts" value="26"> </Parameter>//категория ремонтной сложности электрической части
+           <Parameter title="NumberShifts" value="2"> </Parameter>//число смен работы станка
+           <Parameter title="EnginePower" value="16"> </Parameter>//Установленная мощность электродвигателей (N)
+           <Parameter title="FundWorkingTime" value="3524"> </Parameter>//эфективный фонд рабочего времени оборудования
+           <Parameter title="KPD" value="0.95"> </Parameter> //КПД электродвигателей оборудования
+    </Agent>
+</MASXML>

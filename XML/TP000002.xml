@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Technology id="TP000002" name="ТОЧЕНИЕ ВАЛА" type="techproc" ip_address="192.168.6.3" >
+  <Configuration DetailsCount="12" TimeStart="14.01.2020 8:00:00" TimeEnd="28.01.2020 18:00:00" />
+  <Plan>
+	<WorkflowProcess ID="0" EstimatedTime="200" OperationName="ТОЧЕНИЕ ВАЛА">
+		<Resource ID="EQ000002" Count="1" />
+		<Resource ID="ST000003" Count="1" />
+		<Resource ID="TL000002" Count="1" />
+	</WorkflowProcess>
+	<WorkflowProcess ID="1" EstimatedTime="25" OperationName="ФРЕЗЕРОВАНИЕ КАНАВКИ">
+		<Resource ID="EQ000003" Count="1" />
+		<Resource ID="ST000004" Count="1" />
+		<Resource ID="TL000004" Count="1" />
+	</WorkflowProcess>
+		<WorkflowProcess ID="2" EstimatedTime="200" OperationName="СВЕРЛЕНИЕ ОТВЕРСТИЯ">
+		<Resource ID="EQ000002" Count="1" />
+		<Resource ID="ST000005" Count="1" />
+		<Resource ID="TL000003" Count="1" />
+	</WorkflowProcess>
+		<WorkflowProcess ID="3" EstimatedTime="121" OperationName="СВЕРЛЕНИЕ ОТВЕРСТИЯ">
+		<Resource ID="EQ000001" Count="1" />
+		<Resource ID="ST000004" Count="1" />
+		<Resource ID="TL000003" Count="1" />
+	</WorkflowProcess>
+	<WorkflowProcess ID="4" EstimatedTime="25" OperationName="РАСТОЧКА ОТВЕРСТИЯ">
+		<Resource ID="EQ000002" Count="1" />
+		<Resource ID="ST000005" Count="1" />
+		<Resource ID="TL000005" Count="1" />
+	</WorkflowProcess>
+		<WorkflowProcess ID="5" EstimatedTime="200" OperationName="СВЕРЛЕНИЕ ОТВЕРСТИЯ">
+		<Resource ID="EQ000002" Count="1" />
+		<Resource ID="ST000005" Count="1" />
+		<Resource ID="TL000002" Count="1" />
+	</WorkflowProcess>
+  </Plan>
+</Technology>
